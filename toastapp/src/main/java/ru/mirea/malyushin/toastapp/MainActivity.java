@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnCountChar(View view) {
         Toast toast = Toast.makeText(
                 getApplicationContext(),
-                "Студент № 12, группа № 6. Количество символов - " + editText.getText().length(),
+                "Студент № 19, группа № 6. Количество символов - " + editText.getText().length(),
                 Toast.LENGTH_SHORT
         );
         toast.show();
